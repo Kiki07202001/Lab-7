@@ -32,4 +32,19 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
         formMessage.textContent = "Form submitted successfully!";
     });
+
+// FOCUS EVENTS
+
+    const focusInput = document.getElementById("focusInput");
+    const focusMessage = document.getElementById("focusMessage");
+
+    focusInput.addEventListener("focus", function() {
+        focusMessage.textContent = "Good to type!";
+    });
+
+    focusInput.addEventListener("blur", function() {
+        focusMessage.textContent = "Input field isnt selected.";
+    });
+
+
 });
