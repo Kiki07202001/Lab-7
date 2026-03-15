@@ -23,5 +23,13 @@ document.addEventListener("DOMContentLoaded", function() {
         keyMessage.textContent = 'Last key pressed: ' + event.key;
     });
 
-});
+// FORM EVENTS
 
+    const eventForm = document.getElementById("eventForm");
+    const formMessage = document.getElementById("formMessage");
+
+    eventForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+        formMessage.textContent = "Form submitted successfully!";
+    });
+});
