@@ -7,37 +7,55 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2>Mouse Event!</h2>
-    <button id="hoverButton">Hover over this button</button>
-    <p id="mouseMessage"></p>
-
-    <h2>Keyboard Event!</h2>
-    <input type="text" id="textInput" placeholder="Type something">
-
-    <p id="keyMessage"></p>
-
-    <h2>Form Event!</h2>
-    <form id="eventForm">
-         <input type="text" id="username" placeholder="Enter your name">
-         <button type="submit">Submit</button>
-    </form>
-    <p id="formMessage"></p>
-
-    <h2>Focus Event!</h2>
-
-    <input type="text" id="focusInput" placeholder="Click here">
-
-    <p id="focusMessage"></p>
-
-    <h2>Event Delegation!</h2>
-
-    <div id="buttonContainer">
-        <button>Dinosaur</button>
-        <button>Sabertooth</button>
-        <button>Mammoth</button>
+    <div class="mouseDiv">
+        <h1>Mouse Event!</h2>
+        <button id="hoverButton">Hover over this button</button>
+        <p id="mouseMessage"></p>
     </div>
 
-    <p id="delegationMessage"></p>
+    <br>
+
+    <div class="keyDiv">
+        <h2>Keyboard Event!</h2>
+        <input type="text" id="textInput" placeholder="Type something">
+
+        <p id="keyMessage"></p>
+    </div>
+
+    <br>
+
+    <div class="formDiv">
+        <h3>Form Event!</h2>
+        <form id="eventForm">
+            <input type="text" id="username" placeholder="Enter your name">
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formMessage"></p>
+    </div>
+
+    <br>
+
+    <div class="focusDiv">
+        <h4>Focus Event!</h2>
+
+        <input type="text" id="focusInput" placeholder="Click here">
+
+        <p id="focusMessage"></p>
+    </div>
+
+    <br>
+
+    <div class="delegationDiv">
+        <h5>Event Delegation!</h2>
+
+        <div id="buttonContainer">
+            <button>Dinosaur</button>
+            <button>Sabertooth</button>
+            <button>Mammoth</button>
+        </div>
+
+        <p id="delegationMessage"></p>
+    </div>
 
     <script src="script.js"></script>
 </body>

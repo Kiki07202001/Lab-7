@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(173, 117, 117);
+}
+
+.mouseDiv {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.mouseDiv h1 {
+    font-size: 3rem;
+}
+
+.mouseDiv button {
+    font-size: 20px;
+}
+
+.keyDiv {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.keyDiv h2 {
+    font-size: 3rem;
+}
+
+.keyDiv input{
+    font-size: 20px;
+}
+
+.formDiv {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.formDiv h3 {
+    font-size: 3rem;
+}
+
+.formDiv input{
+    font-size: 20px;
+}
+
+.formDiv button {
+    font-size: 20px;
+}
+
+.focusDiv {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.focusDiv h4 {
+    font-size: 3rem;
+}
+
+.focusDiv input {
+    font-size: 20px;
+}
+
+.delegationDiv {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.delegationDiv h5 {
+    font-size: 3rem;
+}
+
+.delegationDiv button {
+    font-size: 20px;
+}
