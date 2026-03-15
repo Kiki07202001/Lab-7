@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     eventForm.addEventListener("submit", function(event) {
         event.preventDefault();
-        formMessage.textContent = "Form submitted successfully!";
+        formMessage.textContent = 'Form submitted successfully!';
     });
 
 // FOCUS EVENTS
@@ -39,12 +39,26 @@ document.addEventListener("DOMContentLoaded", function() {
     const focusMessage = document.getElementById("focusMessage");
 
     focusInput.addEventListener("focus", function() {
-        focusMessage.textContent = "Good to type!";
+        focusMessage.textContent = 'Good to type!';
     });
 
     focusInput.addEventListener("blur", function() {
-        focusMessage.textContent = "Input field isnt selected.";
+        focusMessage.textContent = 'Input field isnt selected.';
     });
 
+    // DELEGATION EVENT
+
+    const buttonContainer = document.getElementById("buttonContainer");
+    const delegationMessage = document.getElementById("delegationMessage");
+
+    buttonContainer.addEventListener("click", function(event) {
+
+    if (event.target.tagName === "BUTTON") {
+
+        delegationMessage.textContent = event.target.textContent + ' has been selected. ';
+
+        }
+
+    });
 
 });
